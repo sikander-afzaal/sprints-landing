@@ -75,7 +75,10 @@ const Software = () => {
         <div className="flex justify-start items-center gap-3 sm:gap-8 flex-col sm:mt-4">
           <p className="text-white text-base sm:text-xl xl:text-[30px] max-w-[1000px] text-center font-medium">
             We do <strong>MVP development</strong> in phases, called
-            <strong>"sprints"</strong>.
+            <strong>
+              {'"'}sprints{'"'}
+            </strong>
+            .
           </p>
           <p className="text-white text-base sm:text-xl xl:text-[30px] max-w-[1000px] text-center font-medium">
             Each sprint lasts <strong>4 weeks</strong>, with a{" "}

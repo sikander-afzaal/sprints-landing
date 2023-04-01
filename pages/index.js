@@ -33,7 +33,7 @@ export default function Home() {
           Clients Reviews
         </h2>
         <p className="text-base sm:text-xl xl:text-[26px] text-white font-medium">
-          Don't just take our word for it
+          Don{"'"}t just take our word for it
         </p>
       </div>
     </>

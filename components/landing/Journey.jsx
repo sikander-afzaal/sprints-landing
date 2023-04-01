@@ -78,7 +78,7 @@ const Journey = () => {
                 Define my Product
               </p>
               <p className="text-blue text-lg sm:text-2xl font-normal">
-                Your product's features
+                Your product{"'"}s features
               </p>
             </div>
           </div>

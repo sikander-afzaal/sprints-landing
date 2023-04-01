@@ -15,10 +15,7 @@ const Hero = () => {
           We build custom software applications to turn your startup idea into a
           reality.
         </p>
-        <a
-          href="#"
-          className="grid bg-red text-white font-bold text-xl mt-5 rounded-[14px] px-7 sm:px-10 h-[56px] sm:h-[66px]  place-items-center border-2 border-solid border-red hover:bg-transparent transition-all duration-300"
-        >
+        <a href="#" className="bookBtn">
           Book a call
         </a>
       </div>

@@ -3,6 +3,7 @@ import { Raleway } from "next/font/google";
 import Hero from "@/components/landing/Hero";
 import Idea from "@/components/landing/Idea";
 import Software from "@/components/landing/Software";
+import Journey from "@/components/landing/Journey";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Hero />
       <Idea />
       <Software />
+      <Journey />
     </>
   );
 }

@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { Raleway } from "next/font/google";
 import Hero from "@/components/landing/Hero";
+import Idea from "@/components/landing/Idea";
+import Software from "@/components/landing/Software";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -22,6 +24,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <Idea />
+      <Software />
     </>
   );
 }

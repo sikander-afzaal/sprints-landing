@@ -46,9 +46,9 @@ const Book = () => {
             </p>
             <p className="text-xl text-blue">
               <strong className="italic">up to 2 hours - </strong> In this
-              second call we dive deep into your product's features. This way we
-              can have certainty on the time and budget needed to build your
-              software solution.
+              second call we dive deep into your product{"'"}s features. This
+              way we can have certainty on the time and budget needed to build
+              your software solution.
             </p>
           </div>
         </div>

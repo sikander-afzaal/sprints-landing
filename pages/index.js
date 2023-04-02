@@ -5,6 +5,7 @@ import Idea from "@/components/landing/Idea";
 import Software from "@/components/landing/Software";
 import Journey from "@/components/landing/Journey";
 import Review from "@/components/landing/Review";
+import Book from "@/components/landing/Book/Book";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -46,6 +47,7 @@ export default function Home() {
           Some inspiring thing
         </p>
       </div>
+      <Book />
     </>
   );
 }

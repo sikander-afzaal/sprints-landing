@@ -22,6 +22,7 @@ module.exports = {
         gray: "#AEAEAE",
         slate: "#707070",
         cyan: "#8798C5",
+        lightBlue: "#6779AF",
       },
     },
   },

@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const Journey = () => {
   return (
-    <div className="bg-white wrapper py-14 md:py-[160px] mt-16 sm:mt-[90px] xl:mt-[180px]">
+    <div
+      id="journey"
+      className="bg-white wrapper py-14 md:py-[160px] mt-16 sm:mt-[90px] xl:mt-[180px]"
+    >
       <div className="contain flex-col justify-center items-center gap-[50px] xl:gap-[80px]">
         <div className="text-center flex justify-center items-center flex-col">
           <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] xl:text-[75px] leading-[1.2] font-black text-blue">
@@ -26,7 +29,7 @@ const Journey = () => {
             />
           </svg>
           <div className="xl:block hidden self-center justify-self-center">
-            <a href="#" className="bookBtn max-w-[200px] ">
+            <a href="#book" className="bookBtn max-w-[200px] ">
               Book a call
             </a>
           </div>
@@ -64,7 +67,7 @@ const Journey = () => {
               </p>
             </div>
             <div className="xl:hidden block self-center justify-self-center">
-              <a href="#" className="bookBtn max-w-[200px] ">
+              <a href="#book" className="bookBtn max-w-[200px] ">
                 Book a call
               </a>
             </div>

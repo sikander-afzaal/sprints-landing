@@ -8,31 +8,31 @@ const Header = () => {
           <Image src={"/logo.png"} width={100} height={70} alt="logo" />
           <nav className="flex justify-start items-center gap-5 2xl:gap-10">
             <a
-              href="#"
+              href="#idea"
               className="text-white font-semibold text-lg sm:text-base 2xl:text-lg"
             >
               Idea to Product
             </a>
             <a
-              href="#"
+              href="#architecture"
               className="md:block hidden text-white font-semibold text-base 2xl:text-lg"
             >
               Well-Architected MVP
             </a>
             <a
-              href="#"
+              href="#software"
               className="xl:block hidden text-white font-semibold text-base 2xl:text-lg"
             >
               Software Sprints
             </a>
             <a
-              href="#"
+              href="#journey"
               className="xl:block hidden text-white font-semibold text-base 2xl:text-lg"
             >
               Development Journey
             </a>
             <a
-              href="#"
+              href="#reviews"
               className="xl:block hidden text-white font-semibold text-base 2xl:text-lg"
             >
               Clients Reviews
@@ -40,7 +40,7 @@ const Header = () => {
           </nav>
         </div>
         <a
-          href="#"
+          href="#book"
           className="sm:grid bg-red text-white font-bold text-lg rounded-[14px] px-8 h-[60px] hidden place-items-center border-2 border-solid border-red hover:bg-transparent transition-all duration-300"
         >
           Book a call

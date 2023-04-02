@@ -30,7 +30,10 @@ export default function Home() {
       <Idea />
       <Software />
       <Journey />
-      <div className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col">
+      <div
+        id="reviews"
+        className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col"
+      >
         <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] xl:text-[75px] leading-[1.2] font-black text-white">
           Clients Reviews
         </h2>
@@ -39,7 +42,10 @@ export default function Home() {
         </p>
       </div>
       <Review />
-      <div className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col">
+      <div
+        id="book"
+        className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col"
+      >
         <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] xl:text-[75px] leading-[1.2] font-black text-white">
           Book a Call
         </h2>

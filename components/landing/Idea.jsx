@@ -2,7 +2,11 @@ import Image from "next/image";
 
 const Idea = () => {
   return (
-    <div id="idea" className="wrapper  sm:mt-[90px] xl:mt-[150px]">
+    <div
+      data-name="Idea to Product"
+      id="idea"
+      className="wrapper  sm:mt-[90px] xl:mt-[150px]"
+    >
       <div className="contain flex-col justify-center items-center gap-[50px] xl:gap-[100px]">
         <div className="text-center">
           <h2 className="text-[35px] sm:text-[40px] lg:text-[50px]  leading-[1.2] font-black text-white">

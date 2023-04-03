@@ -2,7 +2,11 @@ import Image from "next/image";
 
 const Software = () => {
   return (
-    <div id="software" className="wrapper mt-16 sm:mt-[90px] xl:mt-[200px]">
+    <div
+      data-name="Software Sprints"
+      id="software"
+      className="wrapper mt-16 sm:mt-[90px] xl:mt-[200px]"
+    >
       <div className="contain flex-col justify-center items-center gap-[50px] xl:gap-[80px]">
         <div className="text-center">
           <h2 className="text-[35px] sm:text-[40px] lg:text-[50px]  leading-[1.2] font-black text-white">

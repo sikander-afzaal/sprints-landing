@@ -3,6 +3,7 @@ import Image from "next/image";
 const Journey = () => {
   return (
     <div
+      data-name="Development Journey"
       id="journey"
       className="bg-white wrapper py-14 md:py-[160px] mt-16 sm:mt-[90px] xl:mt-[180px]"
     >

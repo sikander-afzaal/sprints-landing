@@ -1,47 +1,80 @@
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import { Link as Hashlink } from "react-scroll";
 
 const Header = () => {
+  const [activeLink, setActiveLink] = useState("Idea to Product");
+  useEffect(() => {
+    const sections = [
+      document.querySelector("#idea"),
+      document.querySelector("#software"),
+      document.querySelector("#journey"),
+      document.querySelector("#reviews"),
+    ];
+    window.addEventListener("scroll", (event) => {
+      sections.forEach(function (event) {
+        if (event.getBoundingClientRect().top < 75) {
+          setActiveLink("changes");
+        }
+      });
+    });
+  }, []);
+
   return (
     <header className="wrapper bg-blue  fixed top-0 left-0 z-50">
-      <div className="contain justify-between h-[130px] items-center gap-4">
+      <div className="contain justify-between h-[105px] items-center gap-4">
         <div className="flex justify-between w-full sm:w-auto sm:justify-start items-center gap-5 2xl:gap-8">
-          <Image src={"/logo.png"} width={100} height={70} alt="logo" />
-          <nav className="flex justify-start items-center gap-5 2xl:gap-10">
-            <a
-              href="#idea"
-              className="text-white font-semibold text-lg sm:text-base 2xl:text-lg"
+          <Image src={"/logo.png"} width={90} height={60} alt="logo" />
+          <nav className="flex justify-start items-center gap-5 2xl:gap-3">
+            <p className="text-white lg:hidden block px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl font-semibold text-lg sm:text-base 2xl:text-lg">
+              {activeLink}
+            </p>
+            <Hashlink
+              to="idea"
+              offset={-110}
+              duration={500}
+              spy={true}
+              activeClass="bg-activeClass"
+              className="text-white lg:block hidden px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl font-semibold text-lg sm:text-base 2xl:text-lg"
             >
               Idea to Product
-            </a>
-            <a
-              href="#architecture"
-              className="md:block hidden text-white font-semibold text-base 2xl:text-lg"
-            >
-              Well-Architected MVP
-            </a>
-            <a
-              href="#software"
-              className="xl:block hidden text-white font-semibold text-base 2xl:text-lg"
+            </Hashlink>
+
+            <Hashlink
+              offset={-110}
+              duration={500}
+              spy={true}
+              to="software"
+              activeClass="bg-activeClass"
+              className="lg:block hidden px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl text-white font-semibold text-base 2xl:text-lg"
             >
               Software Sprints
-            </a>
-            <a
-              href="#journey"
-              className="xl:block hidden text-white font-semibold text-base 2xl:text-lg"
+            </Hashlink>
+            <Hashlink
+              offset={-110}
+              duration={500}
+              spy={true}
+              to="journey"
+              activeClass="bg-activeClass"
+              className="lg:block hidden px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl text-white font-semibold text-base 2xl:text-lg"
             >
               Development Journey
-            </a>
-            <a
-              href="#reviews"
-              className="xl:block hidden text-white font-semibold text-base 2xl:text-lg"
+            </Hashlink>
+            <Hashlink
+              offset={-110}
+              duration={500}
+              spy={true}
+              to="reviews"
+              activeClass="bg-activeClass"
+              className="lg:block hidden px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl text-white font-semibold text-base 2xl:text-lg"
             >
               Clients Reviews
-            </a>
+            </Hashlink>
           </nav>
         </div>
         <a
           href="#book"
-          className="sm:grid bg-red text-white font-bold text-lg rounded-[14px] px-8 h-[60px] hidden place-items-center border-2 border-solid border-red hover:bg-transparent transition-all duration-300"
+          className="sm:grid bg-red text-white font-bold text-base rounded-[14px] px-8 h-[55px] hidden place-items-center border-[6px] border-solid border-transparent hover:border-white transition-all duration-300"
         >
           Book a call
         </a>

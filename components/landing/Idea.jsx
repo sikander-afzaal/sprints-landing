@@ -5,10 +5,10 @@ const Idea = () => {
     <div id="idea" className="wrapper  sm:mt-[90px] xl:mt-[150px]">
       <div className="contain flex-col justify-center items-center gap-[50px] xl:gap-[100px]">
         <div className="text-center">
-          <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] xl:text-[75px] leading-[1.2] font-black text-white">
+          <h2 className="text-[35px] sm:text-[40px] lg:text-[50px]  leading-[1.2] font-black text-white">
             Idea to product
           </h2>
-          <p className="text-base sm:text-xl xl:text-[26px] text-white font-medium">
+          <p className="text-base sm:text-xl  text-white font-medium">
             Great ideas deserve to become great products
           </p>
         </div>

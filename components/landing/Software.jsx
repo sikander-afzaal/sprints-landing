@@ -5,10 +5,10 @@ const Software = () => {
     <div id="software" className="wrapper mt-16 sm:mt-[90px] xl:mt-[200px]">
       <div className="contain flex-col justify-center items-center gap-[50px] xl:gap-[80px]">
         <div className="text-center">
-          <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] xl:text-[75px] leading-[1.2] font-black text-white">
+          <h2 className="text-[35px] sm:text-[40px] lg:text-[50px]  leading-[1.2] font-black text-white">
             Software Sprints
           </h2>
-          <p className="text-base sm:text-xl xl:text-[26px] text-white font-medium">
+          <p className="text-base sm:text-xl  text-white font-medium">
             The How
           </p>
         </div>
@@ -17,19 +17,19 @@ const Software = () => {
           <h3 className="bg-dark w-[136px] h-[50px] grid place-items-center xl:hidden text-white rounded-xl font-semibold text-xl">
             Sprint 1
           </h3>
-          <div className="w-[290px] my-3 xl:my-0 xl:w-[360px] aspect-square relative">
+          <div className="w-[290px] my-3 xl:my-0 xl:w-[330px] aspect-square relative">
             <Image src={"/software1.png"} fill alt="..." />
           </div>{" "}
           <h3 className="bg-dark w-[136px] h-[50px] grid place-items-center xl:hidden text-white rounded-xl font-semibold text-xl">
             Sprint 2
           </h3>
-          <div className="w-[290px] my-3 xl:my-0 xl:w-[360px] aspect-square relative">
+          <div className="w-[290px] my-3 xl:my-0 xl:w-[330px] aspect-square relative">
             <Image src={"/software2.png"} fill alt="..." />
           </div>
           <h3 className="bg-dark w-[136px] h-[50px] grid place-items-center xl:hidden text-white rounded-xl font-semibold text-xl">
             Sprint 3
           </h3>
-          <div className="w-[290px] my-3 xl:my-0 xl:w-[360px] aspect-square relative">
+          <div className="w-[290px] my-3 xl:my-0 xl:w-[330px] aspect-square relative">
             <Image src={"/software3.png"} fill alt="..." />
           </div>
           <h3 className="bg-dark w-[136px] h-[50px] grid place-items-center xl:hidden text-white rounded-xl font-semibold text-xl">

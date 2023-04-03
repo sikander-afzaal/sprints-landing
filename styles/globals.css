@@ -15,10 +15,37 @@
     @apply flex w-[90%] max-w-[1550px];
   }
   .bookBtn {
-    @apply grid bg-red hover:text-red text-white font-bold text-xl mt-5 rounded-[14px] px-7 sm:px-10 h-[56px] sm:h-[66px]  place-items-center border-2 border-solid border-red hover:bg-transparent transition-all duration-300;
+    @apply grid bg-red hover:text-red text-white font-bold text-base mt-5 rounded-[14px] px-7 sm:px-10 h-[60px]  place-items-center border-2 border-solid border-red hover:bg-transparent transition-all duration-300;
   }
 }
 html {
   scroll-behavior: smooth;
   scroll-padding-block: 130px;
+}
+.splide__arrow {
+  opacity: 1 !important;
+  background-color: transparent !important;
+}
+.splide__arrow svg {
+  fill: #263254 !important;
+}
+.splide__arrow--prev {
+  left: initial !important;
+  right: 100%;
+}
+.splide__arrow--next {
+  right: initial !important;
+  left: 100%;
+}
+@media screen and (max-width: 640px) {
+  .splide__arrow--prev {
+    right: initial !important;
+    left: 0rem !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  .splide__arrow--next {
+    left: initial !important;
+    right: 0rem !important;
+    transform: translate(50%, -50%) !important;
+  }
 }

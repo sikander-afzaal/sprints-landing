@@ -23,6 +23,10 @@ module.exports = {
         slate: "#707070",
         cyan: "#8798C5",
         lightBlue: "#6779AF",
+        activeClass: "#101A36",
+      },
+      boxShadow: {
+        selectedTime: "0px 4px 10px 0px rgba(48,71,141,1) inset",
       },
     },
   },

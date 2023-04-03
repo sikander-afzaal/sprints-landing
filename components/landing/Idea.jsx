@@ -16,7 +16,10 @@ const Idea = () => {
             Great ideas deserve to become great products
           </p>
         </div>
+        {/* Shaya - White images should be smaller */}
+        {/* Shaya - There is a bug with the first image, it wont reduce in size, when width: 100% is added*/}
         <div className="flex justify-center xl:justify-between items-center gap-1 w-full">
+
           <Image src={"/idea-img.png"} width={350} height={340} alt="...." />
           <div className="xl:block hidden">
             <Image src={"/idea-img.png"} width={350} height={340} alt="...." />

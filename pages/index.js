@@ -32,10 +32,10 @@ export default function Home() {
       <Journey />
       <div data-name="Clients Reviews" id="reviews" className="w-full">
         <div className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col">
-          <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] xl:text-[75px] leading-[1.2] font-black text-white">
+          <h2 className="text-[35px] sm:text-[40px]  leading-[1.2] font-black text-white">
             Clients Reviews
           </h2>
-          <p className="text-base sm:text-xl xl:text-[26px] text-white font-medium">
+          <p className="text-base sm:text-xl  text-white font-medium">
             Don{"'"}t just take our word for it
           </p>
         </div>
@@ -45,10 +45,10 @@ export default function Home() {
         id="book"
         className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col"
       >
-        <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] xl:text-[75px] leading-[1.2] font-black text-white">
+        <h2 className="text-[35px] sm:text-[40px]  leading-[1.2] font-black text-white">
           Book a Call
         </h2>
-        <p className="text-base sm:text-xl xl:text-[26px] text-white font-medium">
+        <p className="text-base sm:text-xl  text-white font-medium">
           Some inspiring thing
         </p>
       </div>

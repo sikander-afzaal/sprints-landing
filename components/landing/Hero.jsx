@@ -3,9 +3,13 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="wrapper relative isolate">
-      <div className="absolute lg:block hidden top-[130px] -left-[20px] -z-10">
-        <Image style={{width: '100%'}} src={"/hero-img.png"} width={1000} height={1000} alt="hero-img" />
-        {/* Shaya - By Increasing the width / height number, the quality of the image looks better */}
+      <div className="absolute lg:block h-screen w-[600px] hidden top-[100px] -left-[20px] -z-10">
+        <Image
+          src={"/hero-img.png"}
+          fill
+          alt="hero-img"
+          style={{ objectFit: "contain" }}
+        />
       </div>
       <div className="contain h-auto sm:h-screen min-h-[650px] gap-5  py-14 justify-center items-center flex-col text-center">
         <h1 className="text-white mix-blend-difference text-[35px] sm:text-[40px] lg:text-[50px]  leading-[1.2] font-black">

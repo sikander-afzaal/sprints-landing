@@ -84,7 +84,7 @@ const Step1 = ({ setStep }) => {
             <button
               onClick={() => setSelectedDate(elem)}
               key={idx + elem}
-              className="flex hover:bg-lightBlue text-blue rounded-xl hover:text-white w-full py-2 transition-all duration-300 justify-start items-center flex-col relative"
+              className="flex hover:bg-lightBlue text-blue  hover:text-white w-full py-2 transition-all duration-300 justify-start items-center flex-col relative"
             >
               {selectedDate === elem && (
                 <div className="rounded-full w-3 sm:w-4 aspect-square bg-blue absolute bottom-[120%] left-1/2 -translate-x-1/2"></div>

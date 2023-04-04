@@ -75,7 +75,7 @@ const Header = () => {
         </div>
         <a
           href="#book"
-          className="sm:grid bg-red text-white font-bold text-base rounded-[14px] px-8 h-[55px] hidden place-items-center border-[6px] border-solid border-transparent hover:border-white transition-all duration-300"
+          className="sm:grid bg-red text-white font-bold text-base rounded-[14px] px-8 h-[55px] hidden place-items-center border-2 border-solid border-transparent hover:border-white transition-all duration-300"
         >
           Book a call
         </a>

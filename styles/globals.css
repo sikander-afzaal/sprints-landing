@@ -12,11 +12,21 @@
     @apply flex justify-start items-center flex-col w-full;
   }
   .contain {
-    @apply flex w-[90%] max-w-[1550px];
+    @apply flex w-[95%] max-w-[1550px];
   }
   .bookBtn {
-    @apply grid bg-red hover:text-red text-white font-bold text-base mt-5 rounded-[14px] px-7 sm:px-10 h-[60px]  place-items-center border-2 border-solid border-red hover:bg-transparent transition-all duration-300;
+    @apply grid bg-red  text-white font-bold text-base mt-5 rounded-[14px] px-7 sm:px-10 h-[60px]  place-items-center border-2 border-solid hover:border-white border-transparent  transition-all duration-300;
   }
+}
+body::-webkit-scrollbar {
+  width: 0.7vw;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--background--color);
+  border: 2px solid #fff;
+  border-radius: 100vw;
 }
 html {
   scroll-behavior: smooth;

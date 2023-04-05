@@ -39,22 +39,22 @@ html {
   fill: #263254 !important;
 }
 .splide__arrow--prev {
-  left: initial !important;
-  right: 100%;
+  left: 0 !important;
+  transform: translate(-50%, -50%) !important;
 }
 .splide__arrow--next {
-  right: initial !important;
-  left: 100%;
+  transform: translate(50%, -50%) !important;
+  right: 0 !important;
 }
 @media screen and (max-width: 640px) {
   .splide__arrow--prev {
     right: initial !important;
     left: 0rem !important;
-    transform: translate(-50%, -50%) !important;
+    transform: translateY(-50%) !important;
   }
   .splide__arrow--next {
+    transform: translateY(-50%) !important;
     left: initial !important;
     right: 0rem !important;
-    transform: translate(50%, -50%) !important;
   }
 }

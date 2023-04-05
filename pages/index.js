@@ -41,10 +41,7 @@ export default function Home() {
         </div>
         <Review />
       </div>
-      <div
-        id="book"
-        className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col"
-      >
+      <div className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col">
         <h2 className="text-[35px] sm:text-[40px]  leading-[1.2] font-black text-white">
           Book a Call
         </h2>

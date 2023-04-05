@@ -30,7 +30,6 @@ body::-webkit-scrollbar-thumb {
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-block: 130px;
 }
 .splide__arrow {
   opacity: 1 !important;

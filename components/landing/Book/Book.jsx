@@ -6,7 +6,10 @@ import Confirmation from "./Confirmation";
 const Book = () => {
   const [step, setStep] = useState(1);
   return (
-    <div className="wrapper bg-white py-[80px] relative min-h-[550px] sm:py-[100px] lg:py-[150px]">
+    <div
+      id="book"
+      className="flex w-full justify-center items-center bg-white  relative min-h-[650px] h-screen"
+    >
       {step === 3 && <Confirmation setStep={setStep} />}
       <div className="contain gap-10 justify-between items-stretch">
         <div className="hidden lg:flex justify-start items-start flex-col gap-12 w-full">

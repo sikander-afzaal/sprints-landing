@@ -77,10 +77,17 @@ const Step2 = ({ setStep }) => {
             </button>
           </div>
         ) : (
-          <div className="flex justify-start items-center w-full gap-4">
-            <div className="rounded-lg bg-slate bg-opacity-[0.08] px-5 sm:h-[65px] h-[60px]  flex justify-center items-center">
-              <Image src={"/id.png"} alt="..." width={30} height={30} />
-            </div>
+          <div className="flex flex-wrap justify-start items-center w-full gap-4">
+            {formData.people.map((elem, idx) => {
+              return (
+                <div
+                  key={idx + "people"}
+                  className="rounded-lg bg-slate bg-opacity-[0.08] px-5 sm:h-[65px] h-[60px]  flex justify-center items-center"
+                >
+                  <Image src={"/id.png"} alt="..." width={30} height={30} />
+                </div>
+              );
+            })}
             <div
               onClick={() => setAddingPeople(true)}
               className="flex cursor-pointer justify-start items-center  h-[60px] border-dashed border-[5px] border-opacity-[0.08] border-[#707070] sm:h-[65px] bg-transparent  rounded-lg px-5  gap-5"

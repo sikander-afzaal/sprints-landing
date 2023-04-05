@@ -8,7 +8,7 @@ const Book = () => {
   return (
     <div
       id="book"
-      className="flex w-full justify-center items-center bg-white  relative min-h-[650px] h-screen"
+      className="flex w-full justify-center items-center bg-white  relative min-h-[650px] h-auto md:py-0 py-12 md:h-screen"
     >
       {step === 3 && <Confirmation setStep={setStep} />}
       <div className="contain gap-10 justify-between items-stretch">

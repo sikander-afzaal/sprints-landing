@@ -39,7 +39,7 @@ const Journey = () => {
             <div className="w-full h-auto sm:h-[386px] flex justify-center items-start">
               <Image src={"/dev1.png"} alt="...dev" width={386} height={386} />
             </div>
-            <p className="text-blue text-lg sm:text-2xl font-bold">
+            <p className="text-blue text-lg sm:text-[1.2rem] font-bold">
               Visit our website
             </p>
             <svg
@@ -60,10 +60,10 @@ const Journey = () => {
               <Image src={"/dev2.png"} alt="...dev" width={220} height={380} />
             </div>
             <div>
-              <p className="text-blue text-lg sm:text-2xl font-bold">
+              <p className="text-blue text-lg sm:text-[1.2rem] font-bold">
                 Book initial call
               </p>
-              <p className="text-blue text-lg -mb-6 sm:text-2xl font-normal">
+              <p className="text-blue text-lg -mb-6 sm:text-[1.2rem] font-normal">
                 Our first meeting
               </p>
             </div>
@@ -78,10 +78,10 @@ const Journey = () => {
               <Image src={"/dev3.png"} alt="...dev" width={386} height={386} />
             </div>
             <div>
-              <p className="text-blue text-lg sm:text-2xl font-bold underline">
+              <p className="text-blue text-lg sm:text-[1.2rem] font-bold underline">
                 Define my Product
               </p>
-              <p className="text-blue text-lg sm:text-2xl font-normal">
+              <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
                 Your product{"'"}s features
               </p>
             </div>
@@ -92,10 +92,10 @@ const Journey = () => {
               <Image src={"/dev4.png"} alt="...dev" width={380} height={380} />
             </div>
             <div>
-              <p className="text-blue text-lg sm:text-2xl font-bold">
+              <p className="text-blue text-lg sm:text-[1.2rem] font-bold">
                 Recieve The Roadmap
               </p>
-              <p className="text-blue text-lg sm:text-2xl font-normal">
+              <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
                 Sprints & Budget
               </p>
             </div>
@@ -105,10 +105,10 @@ const Journey = () => {
               <Image src={"/dev5.png"} alt="...dev" width={380} height={380} />
             </div>
             <div>
-              <p className="text-blue text-lg sm:text-2xl font-bold">
+              <p className="text-blue text-lg sm:text-[1.2rem] font-bold">
                 Sprints Reviews
               </p>
-              <p className="text-blue text-lg sm:text-2xl font-normal">
+              <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
                 Monthly progress
               </p>
             </div>
@@ -118,10 +118,10 @@ const Journey = () => {
               <Image src={"/dev6.png"} alt="...dev" width={380} height={380} />
             </div>
             <div>
-              <p className="text-blue text-lg sm:text-2xl font-bold">
+              <p className="text-blue text-lg sm:text-[1.2rem] font-bold">
                 Project delivery
               </p>
-              <p className="text-blue text-lg sm:text-2xl font-normal">
+              <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
                 Ready to Launch
               </p>
             </div>

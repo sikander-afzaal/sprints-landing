@@ -48,13 +48,13 @@ const ReviewBox = ({
     <div className="md:flex-row flex-col justify-center items-center text-center md:text-left md:items-start gap-5 md:gap-10 w-full flex">
       <Image alt="ico..." src={client_logo} width={78} height={78} />
       <div className="flex justify-start items-center md:items-start flex-col gap-4">
-        <h4 className="text-blue text-xl sm:text-2xl font-bold leading-[1]">
+        <h4 className="text-blue text-xl sm:text-[1.2rem] font-bold leading-[1]">
           {client_name}
         </h4>
-        <p className="text-base sm:text-xl lg:text-2xl max-w-[90%] sm:max-w-[1250px] font-normal italic text-blue">
+        <p className="text-base sm:text-xl lg:text-[1.2rem] max-w-[90%] sm:max-w-[1250px] font-normal italic text-blue">
           {client_review}
         </p>
-        <h4 className="text-blue md:self-end text-xl sm:text-2xl font-semibold italic">
+        <h4 className="text-blue md:self-end text-xl sm:text-[1.2rem] font-semibold italic">
           {review_writer}
         </h4>
       </div>

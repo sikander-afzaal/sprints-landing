@@ -44,7 +44,7 @@ const Step1 = ({ setStep }) => {
   ];
   return (
     <div className="flex justify-start items-center flex-col gap-5 w-full">
-      <h3 className="text-lg text-center sm:text-2xl mb-5 font-normal text-blue">
+      <h3 className="text-lg text-center sm:text-[1.2rem] mb-5 font-normal text-blue">
         <strong>Friday,</strong> March 31st 16:00 pm (Uruguay)
       </h3>
       <div className="grid grid-cols-[auto__1fr__1fr__1fr__1fr__1fr__auto] sm:grid-cols-7 mt-8 gap-5 place-items-center w-full">

@@ -44,34 +44,34 @@ const Software = () => {
         <div className="hidden xl:grid mt-7 grid-cols-7 w-full gap-2  items-end">
           <div className="flex justify-start items-center gap-2 flex-col w-full text-center">
             <span className="bg-cyan w-full h-[1px]"></span>
-            <p className="text-white text-lg 2xl:text-2xl font-medium">
+            <p className="text-white text-lg 2xl:text-[1.2rem] font-medium">
               Product
             </p>
           </div>
-          <h3 className="text-white font-black self-start -mt-3  text-2xl 2xl:text-[32px] justify-self-center h-max leading-[1]">
+          <h3 className="text-white font-black self-start -mt-3  text-[1.2rem] 2xl:text-[32px] justify-self-center h-max leading-[1]">
             Sprint 1
           </h3>
           <div className="flex justify-start items-center gap-2 flex-col w-full text-center">
             <span className="bg-cyan w-full h-[1px]"></span>
-            <p className="text-white text-lg 2xl:text-2xl font-medium">
+            <p className="text-white text-lg 2xl:text-[1.2rem] font-medium">
               Sprint Review
             </p>
           </div>
-          <h3 className="text-white font-black self-start -mt-3  text-2xl 2xl:text-[32px] justify-self-center h-max leading-[1]">
+          <h3 className="text-white font-black self-start -mt-3  text-[1.2rem] 2xl:text-[32px] justify-self-center h-max leading-[1]">
             Sprint 2
           </h3>
           <div className="flex justify-start items-center gap-2 flex-col w-full text-center">
             <span className="bg-cyan w-full h-[1px]"></span>
-            <p className="text-white text-lg 2xl:text-2xl font-medium">
+            <p className="text-white text-lg 2xl:text-[1.2rem] font-medium">
               Sprint Review
             </p>
           </div>
-          <h3 className="text-white font-black self-start -mt-3  text-2xl 2xl:text-[32px] justify-self-center h-max leading-[1]">
+          <h3 className="text-white font-black self-start -mt-3  text-[1.2rem] 2xl:text-[32px] justify-self-center h-max leading-[1]">
             Sprint 3
           </h3>
           <div className="flex justify-start items-center gap-2 flex-col w-full text-center">
             <span className="bg-cyan w-full h-[1px]"></span>
-            <p className="text-white text-lg 2xl:text-2xl font-medium">
+            <p className="text-white text-lg 2xl:text-[1.2rem] font-medium">
               Project delivery
             </p>
           </div>

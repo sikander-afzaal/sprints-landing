@@ -13,7 +13,7 @@ const Book = () => {
       {step === 3 && <Confirmation setStep={setStep} />}
       <div className="contain gap-10 justify-between items-stretch">
         <div className="hidden lg:flex justify-start items-start flex-col gap-12 w-full">
-          <h3 className="text-blue font-bold text-2xl">What to Expect</h3>
+          <h3 className="text-blue font-bold text-[1.2rem]">What to Expect</h3>
           <div className="flex justify-start items-start flex-col gap-5">
             <h3 className="text-blue underline font-semibold text-xl">
               Initial call

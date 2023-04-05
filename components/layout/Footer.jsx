@@ -15,32 +15,32 @@ const Footer = () => {
         <div className="w-[2px] bg-white"></div>
         <div className="flex justify-start items-center text-center lg:text-left lg:items-start flex-col gap-8">
           <div>
-            <h3 className="uppercase text-white text-lg sm:text-xl lg:text-[22px] font-bold">
+            <h3 className="uppercase text-white text-lg sm:text-[1.2rem] font-bold">
               Central Offices
             </h3>
-            <p className="text-lg sm:text-xl lg:text-[22px] font-medium text-white mt-4">
+            <p className="text-base font-medium text-white mt-4">
               Periferico Sur 3720, Jardines del Pedregal, Mexico City
             </p>
           </div>
           <div>
-            <h3 className="uppercase text-white text-lg sm:text-xl lg:text-[22px] font-bold">
+            <h3 className="uppercase text-white text-lg sm:text-[1.2rem] font-bold">
               Contact
             </h3>
 
             <a
-              className="text-lg sm:text-xl lg:text-[22px] font-medium text-white mt-4"
+              className="text-base font-medium text-white mt-4"
               href="mailto:company@sprints.dev"
             >
               company@sprints.dev
             </a>
           </div>
           <div>
-            <h3 className="uppercase text-white text-lg sm:text-xl lg:text-[22px] font-bold">
+            <h3 className="uppercase text-white text-lg sm:text-[1.2rem] font-bold">
               Contact
             </h3>
 
             <a
-              className="text-lg sm:text-xl lg:text-[22px] font-medium text-white mt-4"
+              className="text-base font-medium text-white mt-4"
               href="mailto:company@sprints.dev"
             >
               company@sprints.dev

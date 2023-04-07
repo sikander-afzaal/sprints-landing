@@ -46,7 +46,10 @@ const ReviewBox = ({
 }) => {
   return (
     <div className="flex justify-center z-1">
-      <div style={{ width: '80%' }} className="md:flex-row flex-col justify-center items-center text-center md:text-left md:items-start gap-5 md:gap-10 w-full flex">
+      <div
+        style={{ width: "80%" }}
+        className="md:flex-row flex-col justify-center items-center text-center md:text-left md:items-start gap-5 md:gap-10 w-full flex"
+      >
         <Image alt="ico..." src={client_logo} width={78} height={78} />
         <div className="flex justify-start items-center md:items-start flex-col gap-4">
           <h4 className="text-blue text-xl sm:text-[1.2rem] font-bold leading-[1]">

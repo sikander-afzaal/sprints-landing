@@ -22,7 +22,10 @@ const Header = () => {
   }, []);
 
   return (
-    <header style={styles.header} className="wrapper bg-blue fixed top-0 left-0 z-10">
+    <header
+      style={styles.header}
+      className="wrapper bg-blue fixed top-0 left-0 z-40"
+    >
       <div className="contain justify-between h-[90px]  lg:h-[14vh] items-center gap-4">
         <div className="flex justify-between w-full  sm:justify-start items-center gap-3 xl:gap-5 2xl:gap-8">
           <Image src={"/logo.png"} width={70} height={70} alt="logo" />
@@ -89,9 +92,9 @@ export default Header;
 
 const styles = {
   header: {
-    maxHeight: '14vh'
-  }
-}
+    maxHeight: "14vh",
+  },
+};
 
 /* 
 Things removed

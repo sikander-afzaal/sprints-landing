@@ -35,6 +35,7 @@ const Journey = () => {
               <div className="flex xl:m-0 mb-5 justify-start items-center flex-col w-full gap-5 text-center">
                 <div className="w-full h-auto sm:h-[386px] flex justify-center items-start">
                   <Image
+                    style={{ width: "90%" }}
                     src={"/dev1.png"}
                     alt="...dev"
                     width={346}
@@ -62,6 +63,7 @@ const Journey = () => {
               <div className="flex xl:m-0 mb-5 justify-start items-center flex-col w-full gap-5 text-center">
                 <div className="w-full h-auto sm:h-[386px] flex justify-center items-start">
                   <Image
+                    style={{ width: "50%" }}
                     src={"/dev2.png"}
                     alt="...dev"
                     width={190}
@@ -87,6 +89,7 @@ const Journey = () => {
               <div className="flex justify-start items-center flex-col w-full gap-5 text-center">
                 <div className="w-full h-auto sm:h-[386px] flex justify-center items-start">
                   <Image
+                    style={{ width: "90%" }}
                     src={"/dev3.png"}
                     alt="...dev"
                     width={330}
@@ -107,6 +110,7 @@ const Journey = () => {
               <div className="flex justify-start items-center flex-col w-full gap-5 text-center">
                 <div className="w-full h-auto sm:h-[386px] flex justify-center items-start">
                   <Image
+                    style={{ width: "90%" }}
                     src={"/dev4.png"}
                     alt="...dev"
                     width={340}
@@ -127,6 +131,7 @@ const Journey = () => {
               <div className="flex justify-start items-center flex-col w-full gap-5 text-center">
                 <div className="w-full h-auto sm:h-[386px] flex justify-center items-start">
                   <Image
+                    style={{ width: "90%" }}
                     src={"/dev5.png"}
                     alt="...dev"
                     width={340}
@@ -147,6 +152,7 @@ const Journey = () => {
               <div className="flex justify-start items-center flex-col w-full gap-5 text-center">
                 <div className="w-full h-auto sm:h-[386px] flex justify-center items-start">
                   <Image
+                    style={{ width: "90%" }}
                     src={"/dev6.png"}
                     alt="...dev"
                     width={340}

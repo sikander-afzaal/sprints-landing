@@ -47,7 +47,10 @@ const Step1 = ({ setStep }) => {
       <h3 className="text-lg text-center sm:text-[1.2rem] mb-5 font-normal text-blue">
         <strong>Select the date and time</strong> for our inital call
       </h3>
-      <div style={{ width: '92%' }} className="grid grid-cols-[auto__1fr__1fr__1fr__1fr__1fr__auto] sm:grid-cols-7 mt-2 gap-5 place-items-center w-full">
+      <div
+        style={{ width: "92%" }}
+        className="grid grid-cols-[auto__1fr__1fr__1fr__1fr__1fr__auto] sm:grid-cols-7 mt-2 gap-5 place-items-center w-full"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -87,17 +90,13 @@ const Step1 = ({ setStep }) => {
                 key={idx + elem}
                 className="flex hover:bg-lightBlue text-blue  hover:text-white w-full py-2 transition-all duration-300 justify-start items-center flex-col relative"
               >
-
                 <p className="leading-5 text-inherit font-semibold w-min text-base sm:text-md text-center]">
                   {elem}
                 </p>
-                {
-                  selectedDate === elem && (
-                    <div className="rounded-full w-1 sm:w-2 aspect-square bg-blue absolute bottom-[-20%] left-1/2 -translate-x-1/2"></div>
-                  )
-                }
+                {selectedDate === elem && (
+                  <div className="rounded-full w-1 sm:w-2 aspect-square bg-blue absolute bottom-[-20%] left-1/2 -translate-x-1/2"></div>
+                )}
               </button>
-
             </>
           );
         })}
@@ -133,20 +132,25 @@ const Step1 = ({ setStep }) => {
           </svg>
         </button>
       </div>
-      <div style={{ width: '90%' }} className="grid grid-cols-2 sm:grid-cols-3 mt-8 grid-rows-3 w-full gap-8">
+      <div
+        style={{ width: "90%" }}
+        className="grid sm:max-h-none max-h-[40vh] overflow-y-auto grid-cols-2 sm:grid-cols-3 mt-8  w-full gap-8"
+      >
         {DummyTime.map((elem, idx) => {
           return (
             <button
-              style={{ height: '9vh', justifySelf: 'center' }}
+              style={{ height: "9vh", justifySelf: "center" }}
               key={elem.time + idx}
               onClick={() => setSelectedTime(elem.time)}
-              className={`w-full bg-blue hover:-translate-y-2 transition-all duration-300 text-white text-md font-medium ${elem.booked
-                ? "opacity-30 pointer-events-none cursor-default"
-                : "opacity-100"
-                } ${selectedTime === elem.time && !elem.booked
+              className={`w-full bg-blue  hover:-translate-y-2 transition-all duration-300 text-white text-md font-medium ${
+                elem.booked
+                  ? "opacity-30 pointer-events-none cursor-default"
+                  : "opacity-100"
+              } ${
+                selectedTime === elem.time && !elem.booked
                   ? "shadow-selectedTime"
                   : "shadow-none"
-                } h-[80px] rounded-lg`}
+              } h-[80px] rounded-lg`}
             >
               {elem.booked ? "Booked" : elem.time}
             </button>

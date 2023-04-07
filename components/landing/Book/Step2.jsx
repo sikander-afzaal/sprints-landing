@@ -64,7 +64,10 @@ const Step2 = ({ setStep }) => {
             </button>
           </form>
         ) : formData.people.length === 0 ? (
-          <div style={{ width: '81%' }} className="flex justify-start items-center w-full h-[60px] border-dashed border-[5px] border-opacity-[0.08] border-[#707070] sm:h-[54px] bg-transparent bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5">
+          <div
+            style={{ width: "81%" }}
+            className="flex justify-start items-center w-full h-[60px] border-dashed border-[5px] border-opacity-[0.08] border-[#707070] sm:h-[54px] bg-transparent bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5"
+          >
             <Image src={"/add.png"} alt="..." width={30} height={30} />
             <div className="bg-gray w-[1.2px] h-full"></div>
             <button
@@ -77,7 +80,10 @@ const Step2 = ({ setStep }) => {
             </button>
           </div>
         ) : (
-          <div style={{ width: '81%' }} className="flex flex-wrap justify-start items-center w-full gap-4">
+          <div
+            style={{ width: "81%" }}
+            className="flex flex-wrap justify-start items-center w-full gap-4"
+          >
             {formData.people.map((elem, idx) => {
               return (
                 <div
@@ -111,7 +117,10 @@ const Step2 = ({ setStep }) => {
           label="Website or Linkedin"
           ico="/web-ico.png"
         />
-        <div style={{ width: '80%' }} className="flex justify-start  mt-2 w-full items-center gap-5">
+        <div
+          style={{ width: "80%" }}
+          className="flex justify-start  mt-2 w-full items-center gap-5"
+        >
           <input type="checkbox" id="terms" className="w-4 aspect-square" />
           <label
             htmlFor="terms"
@@ -142,7 +151,10 @@ export default Step2;
 
 const FloatInput = ({ ico, val, name, handler, label }) => {
   return (
-    <div style={{ width: '80%' }} className="flex justify-start items-center w-full h-[60px] sm:h-[54px] bg-slate bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5">
+    <div
+      style={{ width: "80%" }}
+      className="flex justify-start items-center w-full h-[60px] sm:h-[54px] bg-slate bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5"
+    >
       <Image src={ico} alt="..." width={30} height={30} />
       <div className="bg-gray w-[1.2px] h-full"></div>
       <div className="relative w-full h-full">
@@ -152,10 +164,10 @@ const FloatInput = ({ ico, val, name, handler, label }) => {
           value={val}
           onChange={handler}
           type="text"
-          className="w-full peer h-full border-none outline-none bg-transparent text-cyan text-lg font-medium"
+          className="w-full peer h-full border-none outline-none bg-transparent text-cyan text-base font-medium"
         />
         <p
-          className={`text-cyan  peer-focus:top-1 peer-placeholder-shown:text-md  peer-placeholder-shown:top-1/2 transition-all duration-500 peer-focus:text-xs top-1 text-xs font-medium absolute left-0 pointer-events-none  -translate-y-1/2`}
+          className={`text-cyan  peer-focus:top-0 peer-placeholder-shown:text-base  peer-placeholder-shown:top-1/2 transition-all duration-500 peer-focus:text-xs top-0 text-xs font-medium absolute left-0 pointer-events-none  -translate-y-1/2`}
         >
           {label}
         </p>

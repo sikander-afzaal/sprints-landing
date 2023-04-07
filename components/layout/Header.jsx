@@ -22,11 +22,8 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="wrapper bg-blue  fixed top-0 left-0 z-50">
-      {/* Shaya - Fit navbar elements to the height: 14vh applied */}
-      {/* Shaya - Contain applies a 90% width, make it 95%*/}
-      {/* Shaya - Center navbar sections between logo and button*/}
-      <div className="contain justify-between h-[90px] lg:min-h-[100px]  lg:h-[14vh] items-center gap-4">
+    <header style={styles.header} className="wrapper bg-blue fixed top-0 left-0 z-10">
+      <div className="contain justify-between h-[90px]  lg:h-[14vh] items-center gap-4">
         <div className="flex justify-between w-full  sm:justify-start items-center gap-3 xl:gap-5 2xl:gap-8">
           <Image src={"/logo.png"} width={70} height={70} alt="logo" />
           <nav className="flex sm:w-full justify-center items-center gap-5 2xl:gap-3">
@@ -89,3 +86,16 @@ const Header = () => {
 };
 
 export default Header;
+
+const styles = {
+  header: {
+    maxHeight: '14vh'
+  }
+}
+
+/* 
+Things removed
+
+29 - lg:min-h-[100px]
+ 
+*/

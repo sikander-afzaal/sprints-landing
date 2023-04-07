@@ -26,7 +26,7 @@ module.exports = {
         activeClass: "#101A36",
       },
       boxShadow: {
-        selectedTime: "0px 4px 10px 0px rgba(48,71,141,1) inset",
+        selectedTime: "0px 4px 10px 0px rgba(48,71,141,1)",
       },
     },
   },

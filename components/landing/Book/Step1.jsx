@@ -45,9 +45,9 @@ const Step1 = ({ setStep }) => {
   return (
     <div className="flex justify-start items-center flex-col gap-5 w-full">
       <h3 className="text-lg text-center sm:text-[1.2rem] mb-5 font-normal text-blue">
-        <strong>Friday,</strong> March 31st 16:00 pm (Uruguay)
+        <strong>Select the date and time</strong> for our inital call
       </h3>
-      <div className="grid grid-cols-[auto__1fr__1fr__1fr__1fr__1fr__auto] sm:grid-cols-7 mt-8 gap-5 place-items-center w-full">
+      <div style={{ width: '92%' }} className="grid grid-cols-[auto__1fr__1fr__1fr__1fr__1fr__auto] sm:grid-cols-7 mt-2 gap-5 place-items-center w-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -63,7 +63,7 @@ const Step1 = ({ setStep }) => {
           />
         </svg>
 
-        <button className="bg-lightBlue rounded-xl w-[45px] aspect-square hidden sm:flex justify-center items-center text-white">
+        <button className="bg-lightBlue rounded-lg w-[36px]  aspect-square hidden sm:flex justify-center items-center text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -81,18 +81,24 @@ const Step1 = ({ setStep }) => {
         </button>
         {DummyDates.map((elem, idx) => {
           return (
-            <button
-              onClick={() => setSelectedDate(elem)}
-              key={idx + elem}
-              className="flex hover:bg-lightBlue text-blue  hover:text-white w-full py-2 transition-all duration-300 justify-start items-center flex-col relative"
-            >
-              {selectedDate === elem && (
-                <div className="rounded-full w-3 sm:w-4 aspect-square bg-blue absolute bottom-[120%] left-1/2 -translate-x-1/2"></div>
-              )}
-              <p className="text-inherit font-bold w-min text-base sm:text-xl text-center leading-[1.2]">
-                {elem}
-              </p>
-            </button>
+            <>
+              <button
+                onClick={() => setSelectedDate(elem)}
+                key={idx + elem}
+                className="flex hover:bg-lightBlue text-blue  hover:text-white w-full py-2 transition-all duration-300 justify-start items-center flex-col relative"
+              >
+
+                <p className="leading-5 text-inherit font-semibold w-min text-base sm:text-md text-center]">
+                  {elem}
+                </p>
+                {
+                  selectedDate === elem && (
+                    <div className="rounded-full w-1 sm:w-2 aspect-square bg-blue absolute bottom-[-20%] left-1/2 -translate-x-1/2"></div>
+                  )
+                }
+              </button>
+
+            </>
           );
         })}
         <svg
@@ -110,7 +116,7 @@ const Step1 = ({ setStep }) => {
           />
         </svg>
 
-        <button className="bg-lightBlue rounded-xl w-[45px] aspect-square hidden sm:flex justify-center items-center text-white">
+        <button className="bg-lightBlue rounded-lg w-[36px] aspect-square hidden sm:flex justify-center items-center text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -127,21 +133,20 @@ const Step1 = ({ setStep }) => {
           </svg>
         </button>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 mt-8 grid-rows-3 w-full gap-8">
+      <div style={{ width: '90%' }} className="grid grid-cols-2 sm:grid-cols-3 mt-8 grid-rows-3 w-full gap-8">
         {DummyTime.map((elem, idx) => {
           return (
             <button
+              style={{ height: '9vh', justifySelf: 'center' }}
               key={elem.time + idx}
               onClick={() => setSelectedTime(elem.time)}
-              className={`w-full bg-lightBlue hover:-translate-y-2 transition-all duration-300 text-white text-xl font-bold ${
-                elem.booked
-                  ? "opacity-30 pointer-events-none cursor-default"
-                  : "opacity-100"
-              } ${
-                selectedTime === elem.time && !elem.booked
+              className={`w-full bg-blue hover:-translate-y-2 transition-all duration-300 text-white text-md font-medium ${elem.booked
+                ? "opacity-30 pointer-events-none cursor-default"
+                : "opacity-100"
+                } ${selectedTime === elem.time && !elem.booked
                   ? "shadow-selectedTime"
                   : "shadow-none"
-              } h-[80px] rounded-xl`}
+                } h-[80px] rounded-lg`}
             >
               {elem.booked ? "Booked" : elem.time}
             </button>

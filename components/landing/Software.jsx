@@ -16,24 +16,24 @@ const Software = () => {
             The How
           </p>
         </div>
-        <div className="flex relative justify-between items-center gap-8 xl:gap-5 w-full xl:flex-row flex-col isolate">
+        <div className="flex relative justify-between items-center gap-28 xl:gap-44 xl:flex-row flex-col isolate">
           <div className="bg-cyan w-[2px] h-full absolute left-1/2 -translate-x-1/2 top-0 -z-10"></div>
           <h3 className="bg-dark w-[136px] h-[50px] grid place-items-center xl:hidden text-white rounded-xl font-semibold text-xl">
             Sprint 1
           </h3>
-          <div className="w-[290px] my-3 xl:my-0 xl:w-[330px] aspect-square relative">
+          <div className="w-[236px] my-3 xl:my-0 xl:w-[270px] aspect-square relative">
             <Image src={"/software1.png"} fill alt="..." />
           </div>{" "}
           <h3 className="bg-dark w-[136px] h-[50px] grid place-items-center xl:hidden text-white rounded-xl font-semibold text-xl">
             Sprint 2
           </h3>
-          <div className="w-[290px] my-3 xl:my-0 xl:w-[330px] aspect-square relative">
+          <div className="w-[236px] my-3 xl:my-0 xl:w-[270px] aspect-square relative">
             <Image src={"/software2.png"} fill alt="..." />
           </div>
           <h3 className="bg-dark w-[136px] h-[50px] grid place-items-center xl:hidden text-white rounded-xl font-semibold text-xl">
             Sprint 3
           </h3>
-          <div className="w-[290px] my-3 xl:my-0 xl:w-[330px] aspect-square relative">
+          <div className="w-[236px] my-3 xl:my-0 xl:w-[270px] aspect-square relative">
             <Image src={"/software3.png"} fill alt="..." />
           </div>
           <h3 className="bg-dark w-[136px] h-[50px] grid place-items-center xl:hidden text-white rounded-xl font-semibold text-xl">
@@ -41,7 +41,7 @@ const Software = () => {
           </h3>
         </div>
 
-        <div className="hidden xl:grid mt-7 grid-cols-7 w-full gap-2  items-end">
+        <div className="hidden xl:grid mt-7 grid-cols-7 w-70 gap-2  items-end w-70">
           <div className="flex justify-start items-center gap-2 flex-col w-full text-center">
             <span className="bg-cyan w-full h-[1px]"></span>
             <p className="text-white text-lg 2xl:text-[1.2rem] font-medium">
@@ -77,24 +77,23 @@ const Software = () => {
           </div>
         </div>
         <div className="flex justify-start items-center gap-3 sm:gap-8 flex-col sm:mt-4">
-          <p className="text-white text-base sm:text-xl  max-w-[1000px] text-center font-medium">
-            We do <strong>MVP development</strong> in phases, called
+          <p className="text-white text-base sm:text-lg max-w-[1000px] text-center font-medium">
+          We develop <strong>MVP{"'"}s</strong> in phases, we call
             <strong>
-              {'"'}sprints{'"'}
+            {" "}{'"'}sprints{'"'}
             </strong>
             .
           </p>
-          <p className="text-white text-base sm:text-xl  max-w-[1000px] text-center font-medium">
+          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
             Each sprint lasts <strong>4 weeks</strong>, with a{" "}
             <strong>sprint review</strong>
-            afterwards.
+            {" "}afterwards.
           </p>
-          <p className="text-white text-base sm:text-xl  max-w-[1000px] text-center font-medium">
-            The average <strong>MVP Development</strong> takes{" "}
-            <strong>3 sprints</strong> to make (12 weeks).{" "}
+          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
+           Once the product is finished, we{"'"}ll have a final product delivery review.
           </p>
-          <p className="text-white text-base sm:text-xl  max-w-[1000px] text-center font-medium">
-            This allows us to match your vision with your delivered product.
+          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
+            This will allow us to match the vision you have, with the delivered product.
           </p>
         </div>
       </div>

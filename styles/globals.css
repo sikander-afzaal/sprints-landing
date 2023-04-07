@@ -12,7 +12,7 @@
     @apply flex justify-start items-center flex-col w-full;
   }
   .contain {
-    @apply flex w-[95%] max-w-[1550px];
+    @apply flex w-[90%] sm:w-[95%] max-w-[1550px];
   }
   .bookBtn {
     @apply grid bg-red  text-white font-bold text-base mt-5 rounded-[14px] px-7 py-4 sm:px-10 h-[60px]  place-items-center border-2 border-solid hover:border-white border-transparent  transition-all duration-300;
@@ -65,8 +65,10 @@ html {
     right: initial !important;
     left: 0rem !important;
     transform: translateY(-50%) !important;
+    top: 96% !important;
   }
   .splide__arrow--next {
+    top: 96% !important;
     transform: translateY(-50%) !important;
     left: initial !important;
     right: 0rem !important;

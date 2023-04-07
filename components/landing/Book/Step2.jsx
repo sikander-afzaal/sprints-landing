@@ -64,10 +64,7 @@ const Step2 = ({ setStep }) => {
             </button>
           </form>
         ) : formData.people.length === 0 ? (
-          <div
-            style={{ width: "81%" }}
-            className="flex justify-start items-center w-full h-[60px] border-dashed border-[5px] border-opacity-[0.08] border-[#707070] sm:h-[54px] bg-transparent bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5"
-          >
+          <div className="flex justify-start items-center w-full h-[60px] border-dashed border-[5px] border-opacity-[0.08] border-[#707070] sm:h-[54px] bg-transparent bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5">
             <Image src={"/add.png"} alt="..." width={30} height={30} />
             <div className="bg-gray w-[1.2px] h-full"></div>
             <button
@@ -80,10 +77,7 @@ const Step2 = ({ setStep }) => {
             </button>
           </div>
         ) : (
-          <div
-            style={{ width: "81%" }}
-            className="flex flex-wrap justify-start items-center w-full gap-4"
-          >
+          <div className="flex flex-wrap justify-start items-center w-full gap-4">
             {formData.people.map((elem, idx) => {
               return (
                 <div
@@ -151,10 +145,7 @@ export default Step2;
 
 const FloatInput = ({ ico, val, name, handler, label }) => {
   return (
-    <div
-      style={{ width: "80%" }}
-      className="flex justify-start items-center w-full h-[60px] sm:h-[54px] bg-slate bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5"
-    >
+    <div className="flex justify-start items-center w-full h-[60px] sm:h-[54px] bg-slate bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5">
       <Image src={ico} alt="..." width={30} height={30} />
       <div className="bg-gray w-[1.2px] h-full"></div>
       <div className="relative w-full h-full">

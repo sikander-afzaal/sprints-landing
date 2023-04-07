@@ -37,8 +37,8 @@ const Journey = () => {
                   <Image
                     src={"/dev1.png"}
                     alt="...dev"
-                    width={386}
-                    height={386}
+                    width={346}
+                    height={346}
                   />
                 </div>
                 <p className="text-blue text-lg sm:text-[1.2rem] font-bold">
@@ -64,8 +64,8 @@ const Journey = () => {
                   <Image
                     src={"/dev2.png"}
                     alt="...dev"
-                    width={220}
-                    height={380}
+                    width={190}
+                    height={330}
                   />
                 </div>
                 <div>
@@ -89,8 +89,8 @@ const Journey = () => {
                   <Image
                     src={"/dev3.png"}
                     alt="...dev"
-                    width={386}
-                    height={386}
+                    width={330}
+                    height={336}
                   />
                 </div>
                 <div>
@@ -109,8 +109,8 @@ const Journey = () => {
                   <Image
                     src={"/dev4.png"}
                     alt="...dev"
-                    width={380}
-                    height={380}
+                    width={340}
+                    height={340}
                   />
                 </div>
                 <div>
@@ -129,8 +129,8 @@ const Journey = () => {
                   <Image
                     src={"/dev5.png"}
                     alt="...dev"
-                    width={380}
-                    height={380}
+                    width={340}
+                    height={340}
                   />
                 </div>
                 <div>
@@ -149,8 +149,8 @@ const Journey = () => {
                   <Image
                     src={"/dev6.png"}
                     alt="...dev"
-                    width={380}
-                    height={380}
+                    width={340}
+                    height={340}
                   />
                 </div>
                 <div>

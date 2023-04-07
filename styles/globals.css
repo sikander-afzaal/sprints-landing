@@ -46,6 +46,20 @@ html {
   transform: translate(50%, -50%) !important;
   right: 0 !important;
 }
+.journey-slide .splide__pagination {
+  bottom: 0;
+}
+.journey-slide .splide__pagination__page {
+  background-color: transparent;
+  border: 2px solid #263254;
+  width: 10px;
+  opacity: 1;
+  height: 10px;
+}
+.journey-slide .splide__pagination__page.is-active {
+  background-color: #263254;
+  transform: none;
+}
 @media screen and (max-width: 640px) {
   .splide__arrow--prev {
     right: initial !important;
